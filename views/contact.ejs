@@ -1,0 +1,69 @@
+<%- include("partials/header") -%>
+    <h3>CONTACT DETAILS:</h3>
+    <table>
+        <tr>
+            <td>FIRST NAME</td>
+            <td>SAHIL</td>
+        </tr>
+        <tr>
+            <td>LAST NAME</td>
+            <td>AGGARWAL</td>
+        </tr>
+        <tr>
+            <td>CONTACT</td>
+            <td>6478354578</td>
+        </tr>
+        <tr>
+            <td>EMAIL</td>
+            <td><a href="mailto:sahilgsp2002@gmail.com">sahilgsp2002.com</a></td>
+        </tr>
+        <tr>
+            <td>LINKEDIN PROFILE</td>
+            <td><a href="https://www.linkedin.com/in/sahil-aggarwal-4b6b8922b">Click Here.</a></td>
+        </tr>
+        <tr>
+            <td>GITHUB</td>
+            <td><a href="https://github.com/Sahil1Aggarwal/COMP229-COMMIT-2.git">Click Here.</a></td>
+        </tr>
+    </table>
+    <br>
+    <hr>
+    <h3>USER INFORMATION:</h3>
+    <form action="/">
+        <div>
+            <label>FIRST NAME</label>
+            <input type="text" placeholder="SAHIL" value="" required>
+        </div>
+        <div>
+            <label>LAST NAME</label>
+            <input type="text" value="" placeholder="AGGARWAL" required>
+        </div>
+        <div>
+            <label>EMAIL</label>
+            <input type="email" placeholder="yourname@gmail.com" required>
+        </div>
+        <div>
+            <label>CONTACT</label>
+            <input type="text" placeholder="XXXXXXXXXX" required>
+        </div>
+        <div>
+            <label>PROVINCE</label>
+            <select required>
+            <option selected value="">BRITISH COLUMBIA</option>
+            <option>ONTARIO</option>
+            <option>QUEBEC</option>
+            <option>MANTIOBA</option>
+            <option>ALBERTA</option>
+          </select>
+        </div>
+        <div>
+            <label>ZIP CODE</label>
+            <input type="text" required>
+        </div>
+        <br>
+        <div>
+            <button type="submit">SUBMIT</button>
+            <button type="reset">RESET</button>
+        </div>
+    </form>
+    <%- include("partials/footer") -%>

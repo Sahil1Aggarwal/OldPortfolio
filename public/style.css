@@ -1,0 +1,173 @@
+   .Image 
+    {
+        width: 40px;
+        border-radius: 20px;
+        height:40px;
+    }
+    
+    .Logo {
+        text-align: center;
+        padding: 9px;
+        background-color: red;
+    }
+    
+    .Head {
+        text-align: center;
+        color: black;
+        width: 20px;
+        height: 150px;
+        font-size: 37px;  
+        vertical-align: top;
+    }
+    
+    .NavBars {
+        text-align: center;
+    }
+    
+    header {
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+    
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+    }
+    
+    li {
+        display: inline-block;
+        text-align: center;
+        padding-left: 10px;
+    }
+    
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    
+    li a:hover {
+        background-color: #111;
+    }
+    
+    .Body {
+        padding: 30px;
+        margin-top: 85px;
+    }
+    
+    Footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+    
+    .footer {
+        text-align: center;
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    .mission {
+        padding: 8px;
+    }
+    
+    .AboutMe {
+        text-align: center;
+        margin-top: -16px;
+        padding: 40px;
+        padding-left: 80px;
+        padding-right: 80px;
+        background-color: whitesmoke;
+        border-radius: 20px;
+        width: 1000px;
+        height: 140px;
+        font-size: 18px;
+        font-family: Helvetica;
+        overflow: hidden;
+        padding-bottom: 60px;
+    }
+    
+    .img {
+        width: 200px;
+        float: right;
+    }
+    
+    .about {
+        padding: 10px;
+        font-family: sans-serif;
+    }
+    
+    .projectImage {
+        width: 300px;
+    }
+    
+    .card {
+        padding: 20px;
+        border-radius: 10px;
+        border-style: outset;
+        float: left;
+        margin-left: 70px;
+    }
+    
+    .servicesImg {
+        width: 1000px;
+        height: 500px;
+    }
+    
+    marquee {
+        background-image: url("images/Services.png");
+        background-repeat: no-repeat;
+    }
+    
+    .relationship {
+        text-align: center;
+        background-color: whitesmoke;
+        border-radius: 10px;
+        padding: 10px;
+    }
+    
+    table {
+        font-family: arial, sans-serif;
+        border-radius: 20px;
+        border-collapse: collapse;
+        width: 100%;
+    }
+    
+    td,
+    th {
+        border: 1px solid whitesmoke;
+        text-align: left;
+        padding: 8px;
+    }
+    
+    tr:nth-child(even) {
+        background-color: whitesmoke;
+    }
+    
+    form {
+        margin: 0 auto;
+        border: 5px solid black;
+        border-radius: 20px;
+        width: 450px;
+        text-align: center;
+        margin-bottom: 25px;
+        padding-bottom: 15px;
+        background-color: whitesmoke;
+    }
+    
+    label,
+    input {
+        display: block;
+        margin: 0 auto;
+        border-radius: 5px;
+    }
+    
+    label {
+        margin-top: 20px;
+    }
